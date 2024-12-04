@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Futuristic Design Agency</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+  <script src="https://kit.fontawesome.com/578fb75e6b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="logo">Design<span>Edge</span></div>
+    
+    <form class="search-form">
+  <input type="text" placeholder="Search..." />
+  <button type="submit">🔍</button>
+</form>
+    
+    <button class="hamburger-menu" aria-label="Open Menu">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </button>
+    <ul class="nav-links">
+    <li class="dropdown">
+  <a href="#services">Services▼</a>
+ <ul class="dropdown-menu">
+  <li><a href="#web-design">Web Design</a></li>
+  <li><a href="#branding">Branding</a></li>
+  <li><a href="#consulting">Consulting</a></li>
+  <li><a href="#AR/VR Development">AR/VR Development</a></li>
+</ul>
+</li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact" class="contact-button ">Contact Us</a></li> 
+    </ul>
+    
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+  <video autoplay muted loop>
+    <source src="images/ARVR1.mp4" type="video/mp4">
+  </video>
+    <div class="hero-content">
+    <h1>Welcome to <span id="dynamic-text">
+    </span>
+
+      <button class="cta-button">Get Started
+      </button>
+      <a href="#services" class="scroll-down">⬇ Scroll Down</a>
+    </div>
+  </section>
+
+
+<!-- Services Section -->
+<section id="services" class="services-section">
+  <h2>Our Services</h2>
+  <p class="section-intro">
+    At <span>DesignEdge</span>, we offer cutting-edge solutions to elevate your brand and online presence.
+  </p>
+  
+  <div class="services-container">
+    <div class="service-card">
+     <img src="images/blog9.jpeg" alt="Web Design Icon" class="service-icon" />
+      <h3>Web Design</h3>
+      <p>Create visually stunning and functional websites tailored to your needs.</p>
+      <button class="learn-more-btn">Learn More</button>
+    </div>
+    <div class="service-card">
+     <img src="images/blog9.jpeg" alt="Branding Icon" class="service-icon" />
+      <h3>Branding</h3>
+      <p>Transform your business identity with creative and impactful branding strategies.</p>
+      <button class="learn-more-btn">Learn More</button>
+    </div>
+    <div class="service-card">
+     <img src="images/blog6.jpeg" alt="Consulting Icon" class="service-icon" />
+      <h3>Consulting</h3>
+      <p>Get expert advice and innovative ideas to solve your design challenges.</p>
+      <button class="learn-more-btn">Learn More</button>
+    </div>
+        <div class="service-card">
+     <img src="images/blog9.jpeg" alt="Web Design Icon" class="service-icon" />
+      <h3>AR/VR Development</h3>
+      <p>Create visually stunning and functional websites tailored to your needs.</p>
+      <button class="learn-more-btn">Learn More</button>
+    </div>
+  </div>
+  
+  <div class="client-logos">
+  <a href="#client1" class="logo-container" title="Client 1">
+    <img src="images/logo1.png" alt="Client 1 Logo" />
+  </a>
+  <a href="#client2" class="logo-container" title="Client 2">
+    <img src="images/logo2.png" alt="Client 2 Logo" />
+  </a>
+  <a href="#client3" class="logo-container" title="Client 3">
+    <img src="images/logo3.png" alt="Client 3 Logo" />
+  </a>
+  <a href="#client4" class="logo-container" title="Client 4">
+    <img src="images/logo4.png" alt="Client 4 Logo" />
+  </a>
+</div>
+</section>
+
+<section id="portfolio" class="portfolio">
+  <h2>Our Portfolio</h2>
+  <p>Explore our cutting-edge projects, including AR/VR development.</p>
+  
+ <!-- Filter Bar -->
+<div class="filter-bar">
+  <button class="filter-btn active" data-category="all">All</button>
+  <button class="filter-btn" data-category="web-design">Web Design</button>
+  <button class="filter-btn" data-category="branding">Branding</button>
+  <button class="filter-btn" data-category="consulting">consulting</button>
+  <button class="filter-btn" data-category="ar-vr">AR/VR Development</button>
+</div>
+
+<!-- Featured Project -->
+<div class="featured-project">
+  <img src="images/ARVRD6.jpg" alt="Featured Project">
+  <div class="featured-content">
+    <h2>Featured Project: Immersive AR Experience</h2>
+    <p>Discover a groundbreaking AR experience designed to engage users like never before.</p>
+    <a href="#details" class="view-button">View Project</a>
+  </div>
+</div>
+
+<!-- Portfolio Grid -->
+<div class="portfolio-grid">
+  <!-- Web Design -->
+  <div class="portfolio-item" data-category="web-design">
+    <img src="images/web1.jpg" alt="Web Design Project">
+    <img src="images/web2.jpg" alt="Web Design Project">
+    <img src="images/web3.jpg" alt="Web Design Project">
+    <img src="images/web4.jpg" alt="Web Design Project">
+    <div class="overlay">
+      <h3>Web Design</h3>
+      <div class="tags">
+        <span>Responsive</span>
+        <span>UI/UX</span>
+        <span>HTML/CSS</span>
+      </div>
+      <p>Modern, responsive web projects.</p>
+      <a href="#details" class="view-more">View More</a>
+    </div>
+  </div>
+
+  <!-- Branding -->
+  <div class="portfolio-item" data-category="branding">
+     <img src="images/branding1.jpg" alt="Branding Project">
+    <img src="images/branding2.jpg" alt="Branding Project">
+    <img src="images/branding3.jpg" alt="Branding Project">
+    <img src="images/branding4.jpg" alt="Branding Project">
+    
+    <div class="overlay">
+      <h3>Branding</h3>
+      <p>Creating iconic brand identities.</p>
+      <div class="stats">
+        <p><strong>50+</strong> Logos Created</p>
+        <p><strong>5+</strong> Years Experience</p>
+      </div>
+      <a href="#details" class="view-more">View More</a>
+    </div>
+  </div>
+  
+    <!-- Consulting -->
+  <div class="portfolio-item" data-category="Consulting">
+     <img src="images/Consultance1.jpg" alt="Branding Project">
+    <img src="images/Consultance2.jpg" alt="Branding Project">
+    <img src="images/Consultance3.jpg" alt="Branding Project">
+    <img src="images/Consultance4.jpg" alt="Branding Project">
+    <div class="overlay">
+      <h3>Consulting</h3>
+      <p>Creating iconic brand identities.</p>
+      <div class="stats">
+        <p><strong>50+</strong> Logos Created</p>
+        <p><strong>5+</strong> Years Experience</p>
+      </div>
+      <a href="#details" class="view-more">View More</a>
+    </div>
+  </div>
+
+  <!-- AR/VR Development -->
+  <div class="portfolio-item" data-category="ar-vr">
+    <img src="images/ARVRD1.jpg" alt="AR/VR Development Project">
+    <img src="images/ARVRD2.jpg" alt="AR/VR Development Project">
+    <img src="images/ARVRD3.jpg" alt="AR/VR Development Project">
+    <img src="images/ARVRD4.jpg" alt="AR/VR Development Project">
+    <div class="overlay">
+      <h3>AR/VR Development</h3>
+      <p>Immersive augmented and virtual reality solutions.</p>
+      <a href="#ar-vr-modal" class="view-more">View More</a>
+    </div>
+  </div>
+</div>
+
+<!-- Lightbox Modal -->
+<div id="ar-vr-modal" class="lightbox">
+  <div class="lightbox-content">
+    <span class="close-modal">&times;</span>
+    <h3>AR/VR Development</h3>
+    <div class="carousel-wrapper">
+      <div class="carousel">
+        <img src="images/ARVRD6.jpg" alt="Project View 1">
+        <img src="images/ARVRD7.jpg" alt="Project View 2">
+        <video controls>
+          <source src="images/ARVR2.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+    <p>Project details, goals, and outcomes. Highlight how the project made an impact.</p>
+    <a href="#full-details" class="cta-button">Read Full Case Study</a>
+  </div>
+</div>
+</section>
+
+<section id="about-us" class="about-us-section">
+  <div class="about-hero">
+    <h1>About Us</h1>
+    <p>Your trusted partner in delivering innovative solutions.</p>
+  </div>
+
+  <div class="about-content">
+    <!-- Vision, Mission, and Values -->
+    <div class="about-vision">
+      <h2>Our Vision</h2>
+      <p>To inspire innovation and deliver transformative results for businesses worldwide.</p>
+    </div>
+
+    <div class="about-mission">
+      <h2>Our Mission</h2>
+      <p>To provide cutting-edge solutions tailored to meet our clients’ unique needs.</p>
+    </div>
+
+    <div class="about-values">
+      <h2>Our Values</h2>
+      <ul>
+        <li>Integrity</li>
+        <li>Innovation</li>
+        <li>Excellence</li>
+        <li>Collaboration</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Team Section -->
+  <div class="team-section">
+    <h2>Meet Our Team</h2>
+    <div class="team-grid">
+      <div class="team-member">
+        <img src="images/team1.jpg" alt="Team Member 1">
+        <h3>Edwin Wango</h3>
+        <p>CEO & Founder</p>
+      </div>
+      <div class="team-member">
+        <img src="images/team2.jpg" alt="Team Member 2">
+        <h3>Edwin Wango</h3>
+        <p>CTO</p>
+      </div>
+      <div class="team-member">
+        <img src="images/team1.jpg" alt="Team Member 3">
+        <h3>Edwin Wango</h3>
+        <p>Lead Designer</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- History Timeline -->
+  <div class="timeline-section">
+    <h2>Our Journey</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <h3>2015</h3>
+        <p>Founded with the goal of revolutionizing the industry.</p>
+      </div>
+      <div class="timeline-item">
+        <h3>2018</h3>
+        <p>Reached 100+ clients globally and expanded operations.</p>
+      </div>
+      <div class="timeline-item">
+        <h3>2022</h3>
+        <p>Launched groundbreaking AR/VR development services.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- CTA -->
+  <div class="about-cta">
+    <h2>Let's Work Together</h2>
+    <a href="#contact" class="contact-button">Contact Us</a>
+  </div>
+</section>
+
+
+
+<section id="technology" class="technology-section">
+  <div class="tech-hero">
+    <h1>Our Technologies</h1>
+    <p>Empowering innovation with cutting-edge tools and platforms.</p>
+  </div>
+
+  <div class="tech-grid">
+    <!-- Example Technology Cards -->
+    <div class="tech-card">
+    <i class="fa-brands fa-html5"></i>
+      <h3>HTML5</h3>
+      <p>Structuring the web with modern standards.</p>
+    </div>
+    <div class="tech-card">
+     <i class="fa-brands fa-css3-alt"></i>
+      <h3>CSS3</h3>
+      <p>Crafting beautiful and responsive designs.</p>
+    </div>
+    <div class="tech-card">
+     <i class="fa-brands fa-js"></i>
+      <h3>JavaScript</h3>
+      <p>Building dynamic and interactive web experiences.</p>
+    </div>
+    <div class="tech-card">
+     <i class="fa-brands fa-react"></i>
+      <h3>React</h3>
+      <p>Creating seamless user interfaces with component-based architecture.</p>
+    </div>
+    <div class="tech-card">
+      <i class="fa-brands fa-node-js"></i>
+      <h3>Node.js</h3>
+      <p>Powering scalable server-side applications.</p>
+    </div>
+    <div class="tech-card">
+      <i class="fa-brands fa-flutter"></i>
+      <h3>Flutter</h3>
+      <p>Building cross-platform mobile applications effortlessly.</p>
+    </div>
+  </div>
+</section>
+
+<section id="process" class="process-section">
+  <div class="process-hero">
+    <h1>Our Process</h1>
+    <p>From ideation to execution, we ensure excellence at every step.</p>
+  </div>
+
+  <div class="process-steps">
+    <!-- Step 1 -->
+    <div class="process-step">
+      <div class="step-icon">
+        <img src="images/idea-icon.png" alt="Ideation">
+      </div>
+      <h3>1. Ideation</h3>
+      <p>We collaborate to understand your vision and objectives.</p>
+    </div>
+
+    <!-- Step 2 -->
+    <div class="process-step">
+      <div class="step-icon">
+        <img src="images/plan-icon.png" alt="Planning">
+      </div>
+      <h3>2. Planning</h3>
+      <p>Strategizing the best approach with clear milestones.</p>
+    </div>
+
+    <!-- Step 3 -->
+    <div class="process-step">
+      <div class="step-icon">
+        <img src="images/design-icon.png" alt="Design">
+      </div>
+      <h3>3. Design</h3>
+      <p>Crafting user-centric designs tailored to your needs.</p>
+    </div>
+
+    <!-- Step 4 -->
+    <div class="process-step">
+      <div class="step-icon">
+        <img src="images/develop-icon.png" alt="Development">
+      </div>
+      <h3>4. Development</h3>
+      <p>Transforming designs into functional, scalable solutions.</p>
+    </div>
+
+    <!-- Step 5 -->
+    <div class="process-step">
+      <div class="step-icon">
+        <img src="images/launch-icon.png" alt="Launch">
+      </div>
+      <h3>5. Launch</h3>
+      <p>Delivering the final product and ensuring smooth deployment.</p>
+    </div>
+  </div>
+</section>
+
+
+<section id="blog" class="blog-section">
+  <div class="section-header">
+    <h1>Insights & Updates</h1>
+    <p>Stay updated with the latest industry trends and insights.</p>
+  </div>
+  
+ <!-- Search -->
+  <div class="blog-controls">
+    <div class="search-bar">
+      <input type="text" placeholder="Search blogs..." id="blog-search">
+    </div>
+  </div>
+
+  <div class="blog-grid">
+    <!-- AR/VR Blog Card -->
+    <div class="blog-card featured-blog">
+      <img src="images/ARVRD5.jpg" alt="AR/VR Blog Post">
+      <div class="blog-content">
+        <h3>The Future of AR/VR</h3>
+        <p>Discover how AR/VR is shaping the future of technology. Explore the latest advancements and innovative use cases transforming industries.</p>
+          <p class="reading-time">10 min read</p>
+        <a href="#read-more" class="read-more">Read More</a>
+      </div>
+    </div>
+    
+    <!-- Other Blog Cards -->
+    <div class="blog-card">
+      <img src="images/web2.jpg" alt="Blog Post 2">
+      <div class="blog-content">
+        <h3>Web Design Trends 2024</h3>
+        <p>Explore the hottest web design trends for the upcoming year.</p>
+        <p class="reading-time">15 min read</p>
+        
+        <a href="#read-more" class="read-more">Read More</a>
+      </div>
+    </div>
+    <div class="blog-card">
+      <img src="images/branding5.jpg" alt="Blog Post 3">
+      <div class="blog-content">
+        <h3>Branding Tips for Startups</h3>
+        <p>Learn how to create a lasting brand identity for your startup.</p>
+        <p class="reading-time">5 min read</p>
+        <a href="#read-more" class="read-more">Read More</a>
+      </div>
+    </div>
+    <div class="blog-card">
+      <img src="images/Consultance4.jpg" alt="Consulting Blog">
+      <div class="blog-content">
+      <h3>How to Approach Business Challenges</h3>
+      <p class="reading-time">7 min read</p>
+      <a href="#read-more" class="read-more">Read More</a>
+    </div>
+  </div>
+  </div>
+</section>
+
+
+
+
+<section id="testimonials" class="testimonials-section">
+  <div class="section-header">
+    <h1>What Our Clients Say</h1>
+    <p>Real stories from our satisfied clients and partners.</p>
+  </div>
+
+  <!-- Testimonial Carousel -->
+  <div class="testimonial-carousel">
+    <!-- Testimonial Card 1 -->
+    <div class="testimonial-card">
+      <p class="testimonial-text">
+        "The team exceeded our expectations with their innovative solutions. Our business has grown significantly since working with them!"
+      </p>
+      <div class="testimonial-info">
+        <img src="images/host1.jpg" alt="Client 1" class="client-photo">
+        <div>
+          <h3>Jane Doe</h3>
+          <p>CEO, TechCorp</p>
+        </div>
+      </div>
+      <div class="client-rating">
+        <span>★★★★★</span>
+      </div>
+    </div>
+
+    <!-- Testimonial Card 2 -->
+    <div class="testimonial-card">
+      <p class="testimonial-text">
+        "Their attention to detail and dedication to quality is unmatched. Highly recommend their services!"
+      </p>
+      <div class="testimonial-info">
+        <img src="images/host.png" alt="Client 2" class="client-photo">
+        <div>
+          <h3>John Smith</h3>
+          <p>Founder, StartupLab</p>
+        </div>
+      </div>
+      <div class="client-rating">
+        <span>★★★★★</span>
+      </div>
+    </div>
+
+    <!-- Testimonial Card 3 -->
+    <div class="testimonial-card">
+      <p class="testimonial-text">
+        "An outstanding experience! Their expertise and commitment helped us launch on time and with great success."
+      </p>
+      <div class="testimonial-info">
+        <img src="images/host.png" alt="Client 3" class="client-photo">
+        <div>
+          <h3>Susan Lee</h3>
+          <p>Creative Director, DesignHub</p>
+        </div>
+      </div>
+      <div class="client-rating">
+        <span>★★★★★</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Carousel Controls -->
+  <div class="carousel-controls">
+    <button class="prev-btn">←</button>
+    <button class="next-btn">→</button>
+  </div>
+</section>
+
+<section id="cta" class="cta-section">
+  <div class="cta-content">
+    <h2>Ready to Take Your Business to the Next Level?</h2>
+    <p>Partner with us to innovate, transform, and grow your business. Let’s build something amazing together!</p>
+    <div class="cta-buttons">
+      <a href="#contact" class="cta-primary-button">Contact Us</a>
+      <a href="#services" class="cta-secondary-button">Our Services</a>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact-us-section">
+  <div class="contact-us-container">
+    <h2>Contact Us</h2>
+    <p>We'd love to hear from you! Fill out the form below, and we'll get back to you as soon as possible.</p>
+    <form class="contact-form" id="contactForm">
+      <div class="form-group">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Your Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+      </div>
+      <button type="submit" class="submit-button">Send Message</button>
+    </form>
+    <div id="successMessage" class="success-message" style="display: none;">
+      <p>Thank you! Your message has been sent successfully. We'll get back to you soon.</p>
+    </div>
+  </div>
+</section>
+
+<section id="pricing" class="pricing-section">
+  <div class="section-header">
+    <h1>Our Pricing Plans</h1>
+    <p>Choose a plan that suits your needs. Flexible options for everyone.</p>
+    <div class="pricing-toggle">
+      <label for="toggle">
+        <input type="checkbox" id="toggle" />
+        <span class="toggle-label">Monthly</span>
+        <span class="toggle-switch"></span>
+        <span class="toggle-label">Yearly</span>
+      </label>
+    </div>
+  </div>
+
+  <div class="pricing-cards">
+    <!-- Basic Plan -->
+    <div class="pricing-card" data-aos="fade-up">
+      <h2>Basic</h2>
+      <p class="price" data-monthly="19" data-yearly="199">
+        <span>$</span><span class="price-value">19</span><span>/mo</span>
+      </p>
+      <ul class="features">
+        <li>1 Project</li>
+        <li>Basic Support</li>
+        <li>5 GB Storage</li>
+        <li>Community Access</li>
+      </ul>
+      <div class="client-rating">
+        <span>★★★★★</span>
+      </div>
+      <button class="cta-button">Get Started</button>
+    </div>
+
+    <!-- Pro Plan -->
+    <div class="pricing-card featured" data-aos="fade-up" data-aos-delay="200">
+      <h2>Pro</h2>
+      <p class="price" data-monthly="49" data-yearly="499">
+        <span>$</span><span class="price-value">49</span><span>/mo</span>
+      </p>
+      <ul class="features">
+        <li>10 Projects</li>
+        <li>Priority Support</li>
+        <li>50 GB Storage</li>
+        <li>Access to Premium Features</li>
+      </ul>
+      <div class="client-rating">
+        <span>★★★★★</span>
+      </div>
+      <button class="cta-button">Get Started</button>
+    </div>
+
+    <!-- Enterprise Plan -->
+    <div class="pricing-card" data-aos="fade-up" data-aos-delay="400">
+      <h2>Enterprise</h2>
+      <p class="price" data-monthly="99" data-yearly="999">
+        <span>$</span><span class="price-value">99</span><span>/mo</span>
+      </p>
+      <ul class="features">
+        <li>Unlimited Projects</li>
+        <li>Dedicated Support</li>
+        <li>Unlimited Storage</li>
+        <li>Custom Solutions</li>
+      </ul>
+      <div class="client-rating">
+        <span>★★★★★</span>
+      </div>
+      <button class="cta-button">Get Started</button>
+    </div>
+  </div>
+</section>
+
+<section id="features" class="feature-section">
+  <div class="section-header">
+    <h1>Our Features</h1>
+    <p>Explore the innovative features that set us apart.</p>
+  </div>
+
+  <div class="feature-cards">
+    <!-- Feature Card 1 -->
+    <div class="feature-card" data-aos="fade-up">
+      <div class="icon">
+        <img src="images/feature1.svg" alt="Feature Icon 1">
+      </div>
+      <h3>Innovative Design</h3>
+      <p>Cutting-edge designs tailored for modern needs.</p>
+      <button class="learn-more-btn" data-feature="design">Learn More</button>
+    </div>
+
+    <!-- Feature Card 2 -->
+    <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+      <div class="icon">
+        <img src="images/feature2.svg" alt="Feature Icon 2">
+      </div>
+      <h3>Custom Solutions</h3>
+      <p>Unique solutions designed to solve complex problems.</p>
+      <button class="learn-more-btn" data-feature="solutions">Learn More</button>
+    </div>
+
+    <!-- Feature Card 3 -->
+    <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
+      <div class="icon">
+        <img src="images/feature3.svg" alt="Feature Icon 3">
+      </div>
+      <h3>Scalability</h3>
+      <p>Systems that grow as your business expands.</p>
+      <button class="learn-more-btn" data-feature="scalability">Learn More</button>
+    </div>
+
+    <!-- New Feature Card 4 -->
+    <div class="feature-card" data-aos="fade-up" data-aos-delay="600">
+      <div class="icon">
+        <img src="images/feature4.svg" alt="Feature Icon 4">
+      </div>
+      <h3>Real-Time Analytics</h3>
+      <p>Get insights into your data in real-time.</p>
+      <button class="learn-more-btn" data-feature="analytics">Learn More</button>
+    </div>
+
+    <!-- New Feature Card 5 -->
+    <div class="feature-card" data-aos="fade-up" data-aos-delay="800">
+      <div class="icon">
+        <img src="images/feature5.svg" alt="Feature Icon 5">
+      </div>
+      <h3>AI-Powered Tools</h3>
+      <p>Empower your business with AI-driven solutions.</p>
+      <button class="learn-more-btn" data-feature="ai-tools">Learn More</button>
+    </div>
+
+    <!-- New Feature Card 6 -->
+    <div class="feature-card" data-aos="fade-up" data-aos-delay="1000">
+      <div class="icon">
+        <img src="images/feature6.svg" alt="Feature Icon 6">
+      </div>
+      <h3>24/7 Support</h3>
+      <p>We’re here for you anytime, anywhere.</p>
+      <button class="learn-more-btn" data-feature="support">Learn More</button>
+    </div>
+  </div>
+</section>
+
+<!-- Modal for Learn More -->
+<div id="feature-modal" class="modal">
+  <div class="modal-content">
+    <span class="close-btn">&times;</span>
+    <h2 id="modal-title">Feature Title</h2>
+    <p id="modal-description">Detailed information about the feature will appear here.</p>
+  </div>
+</div>
+
+
+<section class="awards-section">
+  <div class="container">
+      <i class="fa fa-trophy"></i>
+    <h2 class="section-title" data-aos="fade-up">Awards & Recognition</h2>
+    <p class="section-description" data-aos="fade-up" data-aos-delay="100">
+      Celebrating our achievements and milestones that highlight our commitment to excellence.
+    </p>
+    
+    <!-- Awards Grid -->
+    <div class="awards-grid">
+      <!-- Award Card 1 -->
+      <div class="award-card" data-aos="zoom-in" data-aos-delay="200">
+       <i class="fa-solid fa-medal"></i>
+        <h3 class="award-title">Best Design Studio</h3>
+        <p class="award-year">2023</p>
+        <p class="award-description">
+          Recognized for outstanding design and innovation in the tech industry.
+        </p>
+        <span class="tooltip">Click to learn more</span>
+      </div>
+
+      <!-- Award Card 2 -->
+      <div class="award-card" data-aos="zoom-in" data-aos-delay="300">
+       <i class="fa-solid fa-star"></i>
+        <h3 class="award-title">Top Innovation Award</h3>
+        <p class="award-year">2022</p>
+        <p class="award-description">
+          Honored for breakthrough solutions that redefine industry standards.
+        </p>
+        <span class="tooltip">Click to learn more</span>
+      </div>
+
+      <!-- Award Card 3 -->
+      <div class="award-card" data-aos="zoom-in" data-aos-delay="400">
+      <i class="fa-solid fa-handshake"></i>
+        <h3 class="award-title">Excellence in UX</h3>
+        <p class="award-year">2021</p>
+        <p class="award-description">
+          Awarded for creating seamless and user-friendly digital experiences.
+        </p>
+        <span class="tooltip">Click to learn more</span>
+      </div>
+    </div>
+
+    <!-- Achievements Section with Animated Progress Bars -->
+    <div class="achievements" data-aos="fade-up">
+      <h3>Achievements</h3>
+      <div class="award-progress">
+        <h4>Design Excellence</h4>
+        <div class="progress-bar">
+          <div class="progress-fill" style="width: 85%;"></div>
+        </div>
+      </div>
+      <div class="award-progress">
+        <h4>Innovation Impact</h4>
+        <div class="progress-bar">
+          <div class="progress-fill" style="width: 90%;"></div>
+        </div>
+      </div>
+      <div class="award-progress">
+        <h4>User Experience</h4>
+        <div class="progress-bar">
+          <div class="progress-fill" style="width: 75%;"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Awards Counter Section -->
+    <div class="awards-counter" data-aos="fade-up">
+     <i class="fa-solid fa-award"></i>
+      <h3>Total Awards Earned</h3>
+      <span id="counter">0</span>
+    </div>
+  </div>
+</section>
+
+
+<section class="career-section">
+  <div class="container">
+    <h2 class="section-title" data-aos="fade-up">Open Positions</h2>
+    <p class="section-description" data-aos="fade-up" data-aos-delay="100">
+      Join our visionary team and help shape the future of design and innovation.
+    </p>
+    
+    <!-- Career Timeline -->
+    <div class="career-timeline">
+      <!-- Position 1 -->
+      <div class="career-card" data-aos="fade-right" data-aos-delay="200">
+        <h3 class="job-title">Lead Futuristic UX Designer</h3>
+        <p class="company-name">Futuristic Design Agency</p>
+        <p class="job-duration">Full-time | Remote</p>
+        <button class="toggle-details">View Details</button>
+        <div class="job-details">
+          <ul>
+            <li>Drive innovative user experience designs for next-gen products.</li>
+            <li>Collaborate with cross-functional teams to prototype and implement designs.</li>
+            <li>Lead a team of designers to redefine industry standards in UX.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Position 2 -->
+      <div class="career-card" data-aos="fade-left" data-aos-delay="300">
+        <h3 class="job-title">AI-Powered Product Designer</h3>
+        <p class="company-name">Futuristic Design Agency</p>
+        <p class="job-duration">Full-time | Hybrid</p>
+        <button class="toggle-details">View Details</button>
+        <div class="job-details">
+          <ul>
+            <li>Integrate AI into product design processes for enhanced creativity.</li>
+            <li>Conduct user research to align designs with client goals and AI capabilities.</li>
+            <li>Develop intuitive, futuristic interfaces powered by AI technology.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Position 3 -->
+      <div class="career-card" data-aos="fade-right" data-aos-delay="400">
+        <h3 class="job-title">Junior Holographic Web Developer</h3>
+        <p class="company-name">Futuristic Design Agency</p>
+        <p class="job-duration">Internship | On-site</p>
+        <button class="toggle-details">View Details</button>
+        <div class="job-details">
+          <ul>
+            <li>Develop interactive holographic web interfaces for innovative projects.</li>
+            <li>Collaborate with designers to implement visually stunning 3D effects.</li>
+            <li>Learn and grow under the guidance of industry-leading developers.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section id="contact" class="contact-section">
+  <div class="contact-container">
+    <!-- Contact Info -->
+    <div class="contact-info">
+      <h2>Address Info</h2>
+      <p><strong>Address:</strong> 123 Design Street, Creativity City, 45678</p>
+      <p><strong>Email:</strong> <a href="mailto:info@designagency.com">info@designagency.com</a></p>
+      <p><strong>Phone:</strong> <a href="tel:+123456789">+254 743 068 228</a></p>
+      <div class="social-links">
+        <a href="https://facebook.com" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://twitter.com" target="_blank" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+    </div>
+
+    <!-- Map Embed -->
+    <div class="contact-map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.947168423291!2d-122.084249684691!3d37.42199997982553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb5b5c7c51d81%3A0x645af1102768090!2sGoogleplex!5e0!3m2!1sen!2sus!4v1619205283990!5m2!1sen!2sus"
+        width="100%" 
+        height="300" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </div>
+</section>
+
+
+<footer class="footer-section">
+  <div class="container">
+    <!-- Newsletter Subscription -->
+    <div class="newsletter" data-aos="fade-up">
+      <h3>Subscribe to Our Newsletter</h3>
+      <p>Get the latest updates and exclusive offers straight to your inbox.</p>
+      <form id="newsletter-form" class="newsletter-form">
+        <input
+          type="email"
+          placeholder="Enter your email"
+          class="newsletter-input"
+          aria-label="Enter your email address"
+          required
+        />
+        <button type="submit" class="newsletter-button">Subscribe</button>
+      </form>
+      <small id="newsletter-feedback" class="feedback"></small>
+    </div>
+
+    <!-- Navigation Links -->
+    <div class="footer-nav" data-aos="fade-left">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#about" aria-label="Navigate to About Us section">About Us</a></li>
+        <li><a href="#services" aria-label="Navigate to Services section">Services</a></li>
+        <li><a href="#portfolio" aria-label="Navigate to Portfolio section">Portfolio</a></li>
+        <li><a href="#contact" aria-label="Navigate to Contact section">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Social Media Icons -->
+    <div class="social-media" data-aos="fade-right">
+      <h3>Follow Us</h3>
+      <div class="social-icons">
+        <a href="#" class="social-icon facebook" aria-label="Facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="#" class="social-icon twitter" aria-label="Twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="#" class="social-icon linkedin" aria-label="LinkedIn">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="#" class="social-icon instagram" aria-label="Instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer Bottom -->
+  <div class="footer-bottom">
+    <p>© 2024 Futuristic Design Agency. All Rights Reserved.</p>
+    <a href="#top" class="scroll-to-top" aria-label="Scroll to top">↑ Back to Top</a>
+  </div>
+</footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js"></script>
+  
+</body>
+</html>
